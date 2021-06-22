@@ -1,5 +1,5 @@
 pipeline {
-	agent {  label 'linux-node' }
+	agent {  label 'ubuntu cloud instance' }
 	stages {
 		stage('---clean---'){
 			tools {
