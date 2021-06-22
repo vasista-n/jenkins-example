@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('---clean---'){
 			tools {
-				maven 'maven3.5.4'
+				maven 'maven3.8.1'
 			}
 			steps {
 				
@@ -12,7 +12,7 @@ pipeline {
 		}
 		stage('---test---') {
 			tools {
-				maven 'maven3.5.4'
+				maven 'maven3.8.1'
 			}
 			steps {
 				
@@ -21,7 +21,7 @@ pipeline {
 		}
 		stage('---package---'){
 			tools {
-				maven 'maven3.5.4'
+				maven 'maven3.8.1'
 			}
 			steps {
 				
